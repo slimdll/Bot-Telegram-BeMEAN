@@ -1,0 +1,23 @@
+{
+  "name": "Bot-Telegram-BeMEAN",
+  "scripts": {
+  },
+  "env": {
+    "undefined": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/fs-webdev/heroku-buildpack-assets-deploy.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
